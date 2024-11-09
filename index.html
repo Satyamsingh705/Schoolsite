@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- All the symbols are included in charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School site</title>
+    <style>
+        .header {
+            background-color: rgb(184, 217, 133);
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .header h5 {
+            flex: 1 1 auto;
+            min-width: 100px;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            text-decoration: none;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .header h5 {
+                flex: 1 1 100%;
+                text-align: left;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+        .school-info {
+            display: flex;
+            align-items: center;
+        }
+        .school-info h3 {
+            margin-left: px;
+            margin-top: 0px; /* Adjust this value to move the text down */
+        }
+        .school-name {
+            display: flex;
+            flex-direction: column;
+        }
+        .school-name h5 {
+            margin: 0;
+            margin-left: 0px;
+        }
+    </style>
+  
+</head>
+<body>
+    <header class="header">
+        <h5 style="color: Black; text-decoration: none;">ABOUT US</h5>
+        <h5 style="color: Black; text-decoration: none;">PROGRAMMES</h5>
+        <h5 style="color: Black; text-decoration: none;">ADMISSIONS</h5>
+        <h5 style="color: Black; text-decoration: none;">CONTACT US</h5>
+    </header>
+    
+    <div class="school-info">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUKpvRfUOD24lbWxuQF7QzH4jACpxCCXFA-w&s" style="width:10%;height: 100px" alt="School Logo" >
+        <div class="school-name">
+            <h3 style ="font-weight: bold;">TAKSHASILA VIDYAPITH SENIOR SECONDARY SCHOOL</h3>
+            <h5>Bakhri Begusarai</h5>
+        </div>
+    </div>
+
+
+    <center>
+        <h1>WELCOME TO OUR SCHOOL</h1>
+        <p style="background-color: aquamarine;color : black;text-decoration: underline;"><em>School is a place where students acquire knowledge, develop social skills, and prepare for future careers. It offers a structured environment for learning a variety of subjects, from math and science to art and literature. Beyond academics, school also helps students build character, learn responsibility, and cultivate friendships. Teachers play a crucial role in guiding students, while extracurricular activities encourage creativity and teamwork. Despite challenges, school serves as a foundation for personal and academic growth, shaping individuals who contribute to society. It fosters curiosity, discipline, and resilience, all essential qualities for success in life.</em></p>
+    </center>
+       
+      
+    <form>
+<div>
+    <label>Enter your name : </label>
+
+        <input type="text"  name = "name" placeholder = "Enter your name"><br>
+    <label>Enter your email : </label>
+        <input type ="email" name = "email"  placeholder="Enter your email"><br>
+    <label>Give Feedback</label>
+        
+        <input type="radio" name = "radio" placeholder="Enter your radio">1
+        <input type="radio" name = "radio" placeholder="Enter your radio">2
+        <input type="radio" name = "radio" placeholder="Enter your radio">3
+        <input type="radio" name = "radio" placeholder="Enter your radio">4
+
+        <!-- <input type ="range" name = "range" placeholder="Enter your range"><br> -->
+        <br>
+    <label>Choose your file</label>
+        <input type="file">
+        <input type ="reset" value="Reset">
+        <input type = "submit" value="Submit">
+        <input type = "time" name = "time" placeholder="Enter your time"><br>
+        <br>
+        <input type ="checkbox" name = "checkbox" placeholder="Enter your checkbox">1
+        <input type ="checkbox" name = "checkbox" placeholder="Enter your checkbox">2
+        <input type ="checkbox" name = "checkbox" placeholder="Enter your checkbox">3
+        <input type ="checkbox" name = "checkbox" placeholder="Enter your checkbox">4
+    
+    <br>
+
+    <input type="">
+    <hr style = "width: 100%; height : 2px; background-color: black;">
+
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+</div>
+
+</form>
+<br>
+<table border="2px" >
+            <tr>
+              
+                    <th>Dates</th>
+                    <th>Events</th>
+        </tr>
+      
+        <tbody>
+            <tr>
+            <td>2022 - 2023</td>
+            <td>Welcome to the coding world</td>
+        </tr>
+        <tr>
+            <td>2022 - 2024</td>
+            <td> Hello world!</td>
+            
+        </tr>
+        <tr>
+            <td>2022 - 2025</td>
+            <td> Welcome to the world of programming</td>
+        </tr>
+        </tbody>
+    
+</table>
+<hr size= 3 style="background-color: black;">
+<center>
+    <table>
+        <tr>
+            <td>2022-2023</td>
+            <td>@Copyright reserved ! All Copyrights are reserved to Satyam</td>
+        </tr>
+        
+    </table>
+</center>
+   
+</body>
+</html>
